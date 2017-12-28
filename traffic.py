@@ -14,7 +14,7 @@ y = y[~sp.isnan(y)]
 
 plt.scatter(x,y)
 plt.title("web traffic over last month")
-plt.xlabel("time")
+plt.xlabel("Time")
 plt.ylabel("hits/hr")
 plt.xticks([w*7*24 for w in range(10)],['week %i' %w for w in range(10)])
 plt.autoscale(tight  = True)
